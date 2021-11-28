@@ -1,0 +1,9 @@
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\bin\Debug\netstandard2.0\EMigrant.App.Dominio.deps.json
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\bin\Debug\netstandard2.0\EMigrant.App.Dominio.dll
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\bin\Debug\netstandard2.0\EMigrant.App.Dominio.pdb
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.csprojAssemblyReference.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.AssemblyInfoInputs.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.AssemblyInfo.cs
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.dll
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Dominio\obj\Debug\netstandard2.0\EMigrant.App.Dominio.pdb

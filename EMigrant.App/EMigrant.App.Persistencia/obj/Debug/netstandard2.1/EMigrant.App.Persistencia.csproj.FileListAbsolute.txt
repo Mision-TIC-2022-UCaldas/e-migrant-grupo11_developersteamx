@@ -1,0 +1,12 @@
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\netstandard2.1\EMigrant.App.Persistencia.deps.json
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\netstandard2.1\EMigrant.App.Persistencia.dll
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\netstandard2.1\EMigrant.App.Persistencia.pdb
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\netstandard2.1\EMigrant.App.Dominio.dll
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\bin\Debug\netstandard2.1\EMigrant.App.Dominio.pdb
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.csprojAssemblyReference.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.AssemblyInfoInputs.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.AssemblyInfo.cs
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.csproj.CopyComplete
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.dll
+D:\Hackaton\EMigrant\EMigrant.App\EMigrant.App.Persistencia\obj\Debug\netstandard2.1\EMigrant.App.Persistencia.pdb

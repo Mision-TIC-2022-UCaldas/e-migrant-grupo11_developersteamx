@@ -1,0 +1,105 @@
+@page
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model EMigrant.App.Frontend.Pages.FormMigranteModel
+@{
+    var migrante = Model.Migrante;
+}
+@*Estilos CSS*@ 
+<style>
+.center {
+text-align: center
+}
+</style>
+
+@*Formulario de actualización*@ 
+<h2 class="center">Actualizar información personal</h2>
+<form method="POST">
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputnombre">Nombres *   </label>
+            
+            <input type="text" class="form-control" id="nombres" asp-for="@migrante.nombres" required>
+           <input type="hidden" class="form-control" id="nombres" asp-for="@migrante.id" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputapellidos">Apellidos *</label>
+            <input type="text" class="form-control" id="apellidos" asp-for="@migrante.apellidos" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputtdocumento">Tipo de documento *</label>
+            <select id="tdocumento" class="form-control" asp-for="@migrante.tdocumento" required>
+                <option selected>Tipo de documento...</option>
+                <option>CÉDULA DE CIUDADANÍA</option>
+                <option>CÉDULA DE EXTRANJERA</option>
+                <option>DOCUMNETO EXTRANJERO</option>
+                <option>CÉDULA DE EXTRANJERÍA COLOMBIANA</option>
+                <option>PASAPORTE</option>
+                <option>REGISTRO CIVIL</option>
+                <option>TARJETA DE IDENTIDAD</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputnodocumento">Numero de documento *</label>
+            <input type="text" class="form-control" id="nodocumento" asp-for="@migrante.nodocumento" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputpaisorigen">País de origen *</label>
+            <select id="paisorigen" class="form-control" asp-for="@migrante.paisorigen" required>
+                <option selected>País...</option>
+                <option>Venezuela</option>
+                <option>Brasil</option>
+                <option>>Argentina</option>
+                <option>Uruguay</option>
+                <option>Bolivia</option>
+                <option>Costa Rica</option>
+                <option>Ecuador</option>
+                <option>Perú</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputfechanacimiento">Fecha de nacimiento *</label>
+            <input type="text" class="form-control" id="fechanacimiento" placeholder="DD-MM-AA" asp-for="@migrante.fechanacimiento" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputemail">Correo electrónico</label>
+            <input type="text" class="form-control" id="inputemail" value=@UserManager.GetUserName(User) asp-for="@migrante.email" >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputtelefono">Telefono</label>
+            <input type="text" class="form-control" id="telefono" asp-for="@migrante.telefono">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputtelefono">Direción Actual</label>
+            <input type="text" class="form-control" id="direcion" asp-for="@migrante.direciona">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputtelefono">Ciudad</label>
+            <input type="text" class="form-control" id="ciudad" asp-for="@migrante.ciudad">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputpaisorigen">Situación laboral *</label>
+            <select id="situacionlaboral" class="form-control" asp-for="@migrante.situacionlaboral">
+                <option selected>Situación laboral...</option>
+                <option>Empleado</option>
+                <option>Desempleado</option>
+                <option>Independiente</option>
+            </select>
+        </div>
+    </div>
+    @* <div class="form-group">
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+        Check me out
+        </label>
+        </div>
+        </div> *@
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

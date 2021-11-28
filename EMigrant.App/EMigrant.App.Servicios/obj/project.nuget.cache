@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W0ki43ZFy6xVPwkXEg7ZFL5zKtOi8hnPRz7BZ3re/nSLKrblRALuMbdKUTFt7SHxq1UuBnR7Pl32/F5vnn18Bw==",
+  "success": true,
+  "projectFilePath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Servicios\\EMigrant.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
