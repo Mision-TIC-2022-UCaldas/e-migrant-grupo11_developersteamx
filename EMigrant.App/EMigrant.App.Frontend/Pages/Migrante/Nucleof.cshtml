@@ -1,0 +1,62 @@
+@page
+
+@model EMigrant.App.Frontend.Pages.NucleofModel
+@{
+    //var migrante = Model.Migrantes;
+}
+<h2 class="center">Mi grupo de amigos y familiares</h2>
+<form class="form-inline" method="post">
+  
+<div class="card-body d-flex justify-content-between align-items-center">
+						<label class="sr-only" for="inlineFormInputGroupUsername2">No de Documento</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text"><i class="bi bi-person-video2"></i></div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="No de Documento" >
+  </div>
+
+  
+
+  <button type="submit" class="btn btn-primary mb-2">Buscar </button>
+					</div>
+
+                    
+  
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Documento</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Correo</th>
+            
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @{
+        foreach (var migrante in Model.Migrantes)
+    {
+        <tr>
+            <td>@migrante.nodocumento</td>
+            <td>@migrante.nombres</td>
+            <td>@migrante.apellidos</td>
+            <td>@migrante.telefono</td>
+            <td>@migrante.direciona</td>
+            <td>@migrante.email</td>
+            
+            <td><a asp-page="./Detallenucleof" asp-route-migranteId="@migrante.id" type="button" class="btn btn-outline-info bi bi-search btn-sm" role="button">Ver</a></td>
+            <td><a type="button" class="btn btn-outline-danger bi bi-person-dash btn-sm" href="#" role="button">Quitar</a></td>
+            
+        </tr>
+    }
+        }
+    
+    </tbody>
+</table>

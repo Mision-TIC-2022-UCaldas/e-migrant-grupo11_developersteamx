@@ -16,6 +16,7 @@ namespace EMigrant.App.Persistencia.AppRepositorios
         {
             return _appContext.Colaboradores;
         }
+        
     public Colaborador GetWithQuery(string id){           
        return _appContext.Colaboradores.Where(p => p.email == id).FirstOrDefault();
         

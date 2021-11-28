@@ -1,0 +1,32 @@
+@page
+
+@model EMigrant.App.Frontend.Pages.DetailsMigranteModel
+@{
+    var migrante = Model.Migrante;
+}
+<h2 class="center">Mi grupo de amigos y familiares</h2>
+<div class="card" style="width: 40rem;">
+  <div class="card-header">
+    Informacion detallada de Familiar / Amigos
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><b>Nombres: </b> @migrante.nombres</li>
+    <li class="list-group-item"><b>Apellidos: </b> @migrante.apellidos</li>
+    <li class="list-group-item"><b>Tipo de Documento:</b> @migrante.tdocumento</li>
+    <li class="list-group-item"><b>No de Documento:</b> @migrante.nodocumento</li>
+    <li class="list-group-item"><b>Pais de Origen:</b> @migrante.paisorigen</li>
+    <li class="list-group-item"><b>Fecha de Nacimiento:</b> @migrante.fechanacimiento</li>
+    <li class="list-group-item"><b>Direcion de e-mail:</b> @migrante.email</li>
+    <li class="list-group-item"><b>Telefono:</b> @migrante.telefono</li>
+    <li class="list-group-item"><b>Direcion Actual:</b> @migrante.direciona</li>
+    <li class="list-group-item"><b>Ciudad:</b> @migrante.ciudad</li>
+    <li class="list-group-item"><b>Situacion Laboral:</b> @migrante.situacionlaboral</li>
+  </ul>
+</div>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a asp-page="./Nucleof"  type="button" class="btn btn-outline-info bi bi-arrow-left-circle-fill btn-lg"  role="button" >Regresar</a></li>
+    
+  </ol>
+</nav>
+

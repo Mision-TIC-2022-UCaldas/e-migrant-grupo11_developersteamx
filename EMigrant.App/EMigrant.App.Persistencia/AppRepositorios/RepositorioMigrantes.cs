@@ -23,12 +23,20 @@ namespace EMigrant.App.Persistencia.AppRepositorios
        return _appContext.Migrantes.Where(p => p.email == id).FirstOrDefault();
         
     }
-    
+    public Migrante GetMigranteWithcc(string cc){
+
+           //return _appContext.Migrantes.Find(mail);
+       return _appContext.Migrantes.Where(p => p.nodocumento == cc).FirstOrDefault();
+        
+    }
+       
+       public IEnumerable<Migrante> GetVarios(string vnucleof)
+        {
+            return _appContext.Migrantes.Where(x => x.activor == vnucleof).ToList();
+        }
        public  Migrante GetMigranteWithId(int id){
             return _appContext.Migrantes.Find(id);
-            
-            
-            
+   
         }
         public Migrante Create(Migrante newMigrante)
         {
