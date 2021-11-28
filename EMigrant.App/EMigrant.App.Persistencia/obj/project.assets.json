@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vi\\.nuget\\packages\\": {}
+    "C:\\Users\\Jonathan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
       "projectName": "EMigrant.App.Persistencia",
-      "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-      "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
+      "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+      "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
-              "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+            "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+              "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

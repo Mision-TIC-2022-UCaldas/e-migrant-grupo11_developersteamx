@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj": {}
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj": {}
   },
   "projects": {
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
         "projectName": "EMigrant.App.Dominio",
-        "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-        "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
+        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -50,21 +50,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj": {
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
+        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
         "projectName": "EMigrant.App.Frontend",
-        "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-        "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\emigrant.app.frontend\\obj\\",
+        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
-                "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
+              "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+                "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
               }
             }
           }
@@ -90,6 +90,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -141,21 +145,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
         "projectName": "EMigrant.App.Persistencia",
-        "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-        "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
+        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -166,8 +170,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
-                "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+              "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+                "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
               }
             }
           }
@@ -217,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

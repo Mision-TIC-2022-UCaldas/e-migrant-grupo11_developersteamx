@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {}
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {}
   },
   "projects": {
-    "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
         "projectName": "EMigrant.App.Dominio",
-        "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-        "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
+        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using EMigrant.App.Persistencia.AppRepositorios;
 
 
@@ -31,6 +32,15 @@ namespace EMigrant.App.Frontend
             services.AddControllersWithViews();
             services.AddSingleton<RepositorioMigrantes, RepositorioMigrantes>();
             services.AddSingleton<RepositorioColaboradores, RepositorioColaboradores>();
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    IConfigurationSection googleAuthNSection =
+                        Configuration.GetSection("Authentication:Google");
+
+                    options.ClientId = googleAuthNSection["ClientId"];
+                    options.ClientSecret = googleAuthNSection["ClientSecret"];
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
