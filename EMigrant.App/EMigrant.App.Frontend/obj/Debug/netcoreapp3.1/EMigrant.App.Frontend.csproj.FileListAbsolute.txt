@@ -176,3 +176,6 @@ D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\
 D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Migrante\Informacion.cshtml.g.cs
 D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Migrante\Update1.cshtml.g.cs
+D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Colaborador\Informacion.cshtml.g.cs
+D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Colaborador\Update.cshtml.g.cs
+D:\Hackaton\EMigrant\EMigrant.App\emigrant.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Colaborador\Update1.cshtml.g.cs

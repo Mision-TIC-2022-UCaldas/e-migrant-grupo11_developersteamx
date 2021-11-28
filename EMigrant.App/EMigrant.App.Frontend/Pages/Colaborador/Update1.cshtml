@@ -1,0 +1,87 @@
+@page
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model EMigrant.App.Frontend.Pages.NuevoColaboradorModel
+@{
+    var colaborador = Model.Colaborador;
+}
+@*Estilos CSS*@ 
+<style>
+.center {
+text-align: center
+}
+</style>
+
+@*Formulario de actualización*@ 
+<h2 class="center">Complete su Informacion</h2>
+<form method="POST">
+   
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputrazonsocial">Razón solcial *</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.razonsocial" required>
+            
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputnit">Nit *</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.nit" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputdireccion">Dirección *</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.direcion" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputciudad">Ciudad *</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.ciudad" required>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputemail">Dirección electrónica</label>
+            <input type="text" class="form-control" id="#" value=@UserManager.GetUserName(User) asp-for="@colaborador.email" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputtelefonoo">Teléfono</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.telefono">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputtdocumento">Sector *</label>
+            <select id="inputtdocumento" class="form-control"  asp-for="@colaborador.sector" required>
+                <option selected>Tipo de sector...</option>
+                <option>Público</option>
+                <option>Privado</option>
+                <option>Sin ánimo de lucro</option>
+                <option>No gubernamental</option>
+                <option>Otro</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputpaginaweb"> Página web</label>
+            <input type="text" class="form-control" id="#" asp-for="@colaborador.paginaweb">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputpaisorigen">Tipo de servicios que ofrece *</label>
+            <select id="inputpaisorigen" class="form-control" asp-for="@colaborador.servicio" required>
+                <option selected>Servicios...</option>
+                <option>Salud</option>
+                <option>Jurídicos</option>
+                <option>Víveres</option>
+                <option>Comida preparada</option>
+                <option>Empleo</option>
+                <option>Alojamiento temporal</option>
+                <option>Alojamiento permanente</option>
+                <option>Educación</option>
+                <option>Otros</option>
+            </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

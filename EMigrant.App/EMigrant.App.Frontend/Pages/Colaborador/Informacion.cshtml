@@ -1,0 +1,106 @@
+@page
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model EMigrant.App.Frontend.Pages.DetColaboradorModel
+@{
+    var colaborador= Model.Colaborador;
+    
+
+}
+@*Estilos CSS*@
+<style>
+    .center {
+        text-align: center
+    }
+
+    .resaltar {
+        font-weight: bold;
+        font-size: 18px;
+        color: green;
+    }
+</style>
+
+@*Formulario para consultar informacion personal de un migrante*@
+<h2 class="center">Registrar una entidad</h2>
+<form>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputrazonsocial">Razón solcial *</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.razonsocial">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputnit">Nit *</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.nit">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputdireccion">Dirección *</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.direcion">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputciudad">Ciudad *</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.ciudad">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputemail">Dirección electrónica</label>
+            <input readonly class="form-control" id="#" value=@UserManager.GetUserName(User) asp-for="@colaborador.email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputtelefonoo">Teléfono</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.telefono">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputtdocumento">Sector *</label>
+            <select id="inputtdocumento" class="form-control" readonly asp-for="@colaborador.sector">
+                <option selected>Tipo de sector...</option>
+                <option>Público</option>
+                <option>Privado</option>
+                <option>Sin ánimo de lucro</option>
+                <option>No gubernamental</option>
+                <option>Otro</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputpaginaweb"> Página web</label>
+            <input readonly class="form-control" id="#" asp-for="@colaborador.paginaweb">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputpaisorigen">Tipo de servicios que ofrece *</label>
+            <select id="inputpaisorigen" class="form-control" readonly asp-for="@colaborador.servicio" >
+                <option selected>Servicios...</option>
+                <option>Salud</option>
+                <option>Jurídicos</option>
+                <option>Víveres</option>
+                <option>Comida preparada</option>
+                <option>Empleo</option>
+                <option>Alojamiento temporal</option>
+                <option>Alojamiento permanente</option>
+                <option>Educación</option>
+                <option>Otros</option>
+            </select>
+        </div>
+    </div>
+    @{
+        try { 
+        var ids = colaborador.id;
+        <a class="btn btn-info" asp-page="./Update" asp-route-colaboradorId="@UserManager.GetUserName(User)">Actualizar datos</a>
+
+    }catch{
+       <a class="btn btn-info" asp-page="./Update1" asp-route-colaboradorId="@UserManager.GetUserName(User)">Actualizar datos</a>
+    }
+    
+     }
+    <p>Si necesitas actualizar tu información personal. Presiona el botón <span class="resaltar">Actualizar datos</span></p>
+    
+        
+    
+</form>

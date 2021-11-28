@@ -30,6 +30,7 @@ namespace EMigrant.App.Frontend
             services.AddRazorPages();
             services.AddControllersWithViews();
             services.AddSingleton<RepositorioMigrantes, RepositorioMigrantes>();
+            services.AddSingleton<RepositorioColaboradores, RepositorioColaboradores>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
