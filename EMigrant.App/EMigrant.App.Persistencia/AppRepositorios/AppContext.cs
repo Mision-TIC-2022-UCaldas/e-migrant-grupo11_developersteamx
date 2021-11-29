@@ -10,6 +10,7 @@ namespace EMigrant.App.Persistencia
         public DbSet<Sector> Sectores { get; set; }
         public DbSet<Servicio> Servicios { get; set; }
         public DbSet<Gerente> Gerentes { get; set; }
+        public DbSet<Articulo> Articulos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

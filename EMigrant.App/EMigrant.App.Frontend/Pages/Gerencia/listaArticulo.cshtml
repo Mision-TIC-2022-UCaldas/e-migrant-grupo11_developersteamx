@@ -1,0 +1,41 @@
+@page
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model EMigrant.App.Frontend.Pages.ListArticuloModel
+@{
+}
+<style>
+    .center {
+        text-align: center
+    }
+</style>
+
+@*Todas las novedades*@
+
+<h2 class="center">Actualizar los datos de las novedades</h2>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Título de la novedad</th>
+        <th>Fecha de la novedad</th>
+        <th>Días publicado</th>
+        <th>Texto explicativo</th>
+        <th>Acciones</th>
+    </thead>
+    @foreach (var articulo in Model.Articulo)
+    {
+        <tr>
+            <td>@articulo.id</td>
+            <td>@articulo.tituloArticulo</td>
+            <td>@articulo.fechaNovedad</td>
+            <td>@articulo.diasArticulo</td>
+            <td>@articulo.textoArticulo</td>
+            <td>
+              <a class="btn btn-info" asp-page="./editarArticulo" asp-route-articulo.id="@articulo.id">Editar</a>
+              <a class="btn btn-danger" href="">Inhabilitar</a>
+              </td>
+        </tr>
+    }
+</table>

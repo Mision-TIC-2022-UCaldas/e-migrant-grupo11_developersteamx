@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yJUZ31Q8o++3i8g/WodgRbHnFaRf8QIvU+qAEP1LaFM4m8ZrbgaAy/PViENkiRss2YPhU/0HIkTWju95/IXIug==",
+  "dgSpecHash": "NcnwedQ8pfDSofm79oGE23B10e9T36hed7+bHPdl0e4mJjchBj8vUizHpoXLrSvlWdCIrSFwT4ci0lULXlHcqw==",
   "success": true,
-  "projectFilePath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\emigrant.app.frontend\\EMigrant.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.0\\microsoft.aspnetcore.authentication.google.3.1.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

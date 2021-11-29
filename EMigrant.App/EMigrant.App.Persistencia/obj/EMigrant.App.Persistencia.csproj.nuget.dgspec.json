@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {}
+    "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+    "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
         "projectName": "EMigrant.App.Dominio",
-        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+    "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
         "projectName": "EMigrant.App.Persistencia",
-        "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
+        "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
-                "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
+              "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj"
               }
             }
           }

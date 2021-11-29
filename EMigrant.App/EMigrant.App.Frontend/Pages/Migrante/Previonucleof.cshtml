@@ -1,0 +1,54 @@
+@page
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model EMigrant.App.Frontend.Pages.PrevNucleofModel
+@{
+    var migrante= Model.Migrante;
+}
+@*Estilos CSS*@
+<style>
+    .center {
+        text-align: center
+    }
+
+    .resaltar {
+        font-weight: bold;
+        font-size: 18px;
+        color: green;
+    }
+</style>
+
+@*Formulario para consultar informacion personal de un migrante*@
+<h2 class="center">Consultar - Gestionar mi nucleo familiar - amigos -- @migrante.activor--</h2>
+<form>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="inputnombre">Nombres *   </label>
+            
+            <input readonly class="form-control" id="nombres" asp-for="@migrante.nombres" >
+           
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputapellidos">Apellidos *</label>
+            <input type="text" class="form-control" id="apellidos" asp-for="@migrante.apellidos" readonly>
+        </div>
+    </div>
+    
+    @{
+        try { 
+        var ids = migrante.id;
+        <a class="btn btn-info" href="./Nucleof?migranteId=@migrante.activor" >Continuar -></a>
+
+    }catch{
+       <a class="btn btn-info" asp-page="./Update1" asp-route-migranteId="1">Continuar</a>
+    }
+    
+     }
+    
+    
+    
+        
+    
+</form>

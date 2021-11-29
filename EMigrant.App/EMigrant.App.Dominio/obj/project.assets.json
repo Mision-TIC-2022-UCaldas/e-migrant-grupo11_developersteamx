@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
       "projectName": "EMigrant.App.Dominio",
-      "projectPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
+      "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\EMigrant.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-      "outputPath": "C:\\e-migrant-grupo11_developersteamx\\EMigrant.App\\EMigrant.App.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"

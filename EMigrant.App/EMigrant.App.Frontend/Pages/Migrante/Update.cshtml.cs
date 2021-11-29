@@ -38,9 +38,6 @@ namespace EMigrant.App.Frontend.Pages
             return RedirectToPage("/Index");
         }
 
-
-
-
     }
 }
 

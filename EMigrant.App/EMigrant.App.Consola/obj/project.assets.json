@@ -5835,19 +5835,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vi\\.nuget\\packages\\": {}
+    "C:\\Users\\Jonathan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
       "projectName": "EMigrant.App.Consola",
-      "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\Vi\\.nuget\\packages\\",
-      "outputPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Consola\\EMigrant.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5858,8 +5858,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
-              "projectPath": "D:\\Hackaton\\EMigrant\\EMigrant.App\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
+            "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Jonathan\\Downloads\\EMigrant.App\\emigrant.app\\EMigrant.App.Persistencia\\EMigrant.App.Persistencia.csproj"
             }
           }
         }
@@ -5909,7 +5909,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

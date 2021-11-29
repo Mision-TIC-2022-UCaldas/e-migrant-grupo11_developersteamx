@@ -18,6 +18,33 @@ namespace EMigrant.App.Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("EMigrant.App.Dominio.Articulo", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("activor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("diasArticulo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("fechaNovedad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("textoArticulo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("tituloArticulo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Articulos");
+                });
+
             modelBuilder.Entity("EMigrant.App.Dominio.Colaborador", b =>
                 {
                     b.Property<int>("id")

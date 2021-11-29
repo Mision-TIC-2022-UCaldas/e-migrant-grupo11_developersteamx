@@ -20,9 +20,9 @@ namespace EMigrant.App.Frontend.Pages
             this.repositoriomigrantes = repositoriomigrantes;
         }
         
-        public void OnGet()
+        public void OnGet(string migranteId)
         {
-            Migrantes = repositoriomigrantes.GetVarios("");
+            Migrantes = repositoriomigrantes.GetVarios(migranteId);
         }
         /*public IActionResult OnPost()
         {
